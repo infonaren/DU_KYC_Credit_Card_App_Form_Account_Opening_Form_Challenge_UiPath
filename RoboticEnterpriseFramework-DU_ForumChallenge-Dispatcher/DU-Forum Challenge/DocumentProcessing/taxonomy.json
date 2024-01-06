@@ -1,0 +1,1974 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "BharatBank.Banking.CreditCardApplication",
+      "Group": "Bharat Bank",
+      "Category": "Banking",
+      "Name": "Credit Card Application",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BharatBank.Banking.CreditCardApplication.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.CardType",
+          "FieldName": "Domestic Card",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Domestic",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.InternationalCard",
+          "FieldName": "International Card",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#edc342"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "5"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "International",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.CardVariant",
+          "FieldName": "Platinum Card",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Platinum",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.VisaCard",
+          "FieldName": "Gold Card",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#4e95db"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "6"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Gold",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.FirstName",
+          "FieldName": "First Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "First Name",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.MiddleName",
+          "FieldName": "Middle Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Middle Name",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.LastName",
+          "FieldName": "Last Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d974c6"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Last Name",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.NameonCard",
+          "FieldName": "Name on Card",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ca9ea0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Name on the Card",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Mothersmaidenname",
+          "FieldName": "Mothers maiden name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#bb75b6"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Age",
+          "FieldName": "Age",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#db55de"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Age",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Gender",
+          "FieldName": "Male Gender",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8c357a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Gender Male",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.FemaleGender",
+          "FieldName": "Female Gender",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#1c54f1"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "7"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Gender Female",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.DateofBirth",
+          "FieldName": "Date of Birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "ddMMyy",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5f27d9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Nationality",
+          "FieldName": "Nationality",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c98882"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Nationality",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.VehicleOwned",
+          "FieldName": "Vehicle Owned Car",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8acae4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.VehicleOwnedTwowheeler",
+          "FieldName": "Vehicle Owned Two wheeler",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c374ea"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "8"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.VehicleOwnedOrganizationProvided",
+          "FieldName": "Vehicle Owned Organization Provided",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b462c4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.VehicleOwnedNone",
+          "FieldName": "Vehicle Owned None",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#60d6a5"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "@"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.NumberofdependentsZero",
+          "FieldName": "Number of dependents Zero",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7fdc5c"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "["
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Numberofdependants",
+          "FieldName": "Number of dependents One",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#2298d4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.NumberofdependentsTwo",
+          "FieldName": "Number of dependents Two",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7f4cb0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "#"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.NumberofdependentsThree",
+          "FieldName": "Number of dependents Three",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#55c0eb"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "$"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.NumberofdependentsFour",
+          "FieldName": "Number of dependents Four",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c07b9c"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "%"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.NumberofdependentsFourormore",
+          "FieldName": "Number of dependents Four or more",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6fb5c3"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "^"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Married",
+          "FieldName": "Married Yes",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e250c6"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.MarriedNo",
+          "FieldName": "Married No",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#32a583"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "&"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Marriedothers",
+          "FieldName": "Married others",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b276eb"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "*"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Address",
+          "FieldName": "Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d275a4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "z"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Employmentstatus",
+          "FieldName": "Employment status salaried",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#594e22"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "x"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.EmploymentstatusselfEmployed",
+          "FieldName": "Employment status self Employed",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7f9c8e"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "("
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.EmploymentstatusRetired",
+          "FieldName": "Employment status Retired",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ec42cb"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": ")"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.NameoftheCompany",
+          "FieldName": "Name of the Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c8a089"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "1"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Designation",
+          "FieldName": "Designation",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b254e3"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "2"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Officeaddress",
+          "FieldName": "Office address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#be8c48"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "3"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.CreditCardApplication.Creditcardsheld",
+          "FieldName": "Credit cards held",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "BharatBank.Banking.CreditCardApplication.Creditcardsheld.CardNo",
+              "FieldName": "Card No",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            },
+            {
+              "FieldId": "BharatBank.Banking.CreditCardApplication.Creditcardsheld.IssuedBank",
+              "FieldName": "Issued Bank",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            },
+            {
+              "FieldId": "BharatBank.Banking.CreditCardApplication.Creditcardsheld.CreditLimit",
+              "FieldName": "Credit Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ba8899"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "4"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "BharatBank.Banking.BankAccountOpening",
+      "Group": "Bharat Bank",
+      "Category": "Banking",
+      "Name": "Bank Account Opening",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BharatBank.Banking.BankAccountOpening.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Customertype",
+          "FieldName": "Customer type Public",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Customer Public",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.CustomertypeStaff",
+          "FieldName": "Customer type Staff",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#a052f9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Customer Staff",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Salutation",
+          "FieldName": "Salutation Mr.",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.SalutationMrs",
+          "FieldName": "Salutation Mrs.",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#bf7ce4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.SalutationMs",
+          "FieldName": "Salutation Ms.",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#97a027"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "z"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Salutationother",
+          "FieldName": "Salutation other",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ddb877"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "x"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Fullname",
+          "FieldName": "Full name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Full Name",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Dateofbirth",
+          "FieldName": "Date of birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "ddmmyyyy",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "DOB",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Gender",
+          "FieldName": "Gender Male",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#15dab2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.GenderFemale",
+          "FieldName": "Gender Female",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8532af"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "1"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Nationality",
+          "FieldName": "Nationality",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#90c1e0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Maritalstatus",
+          "FieldName": "Marital status Married",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3ddb77"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.MaritalstatusUnmarried",
+          "FieldName": "Marital status Unmarried",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#50466e"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "2"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Maritalstatusother",
+          "FieldName": "Marital status other",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#852b7e"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "3"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Overseasaddress",
+          "FieldName": "Overseas address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fca027"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.City",
+          "FieldName": "City",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#15aa7d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Country",
+          "FieldName": "Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#cf6090"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.Passportdetails",
+          "FieldName": "Passport details",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "BharatBank.Banking.BankAccountOpening.Passportdetails.PassportNo",
+              "FieldName": "Passport No",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            },
+            {
+              "FieldId": "BharatBank.Banking.BankAccountOpening.Passportdetails.IssueDate",
+              "FieldName": "Issue Date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            },
+            {
+              "FieldId": "BharatBank.Banking.BankAccountOpening.Passportdetails.PlaceofIssue",
+              "FieldName": "Place of Issue",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            },
+            {
+              "FieldId": "BharatBank.Banking.BankAccountOpening.Passportdetails.Nationality",
+              "FieldName": "Nationality",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            },
+            {
+              "FieldId": "BharatBank.Banking.BankAccountOpening.Passportdetails.ExpiryDate",
+              "FieldName": "Expiry Date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": ""
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#44c585"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.BankAccountOpening.ApplicantSignature",
+          "FieldName": "Applicant Signature",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ce8cc5"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Signature",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "BharatBank.Banking.KYCForm",
+      "Group": "Bharat Bank",
+      "Category": "Banking",
+      "Name": "KYC Form",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BharatBank.Banking.KYCForm.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Applicationtype",
+          "FieldName": "Application type New",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Applicantion type new",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.ApplicationtypeChangerequest",
+          "FieldName": "Application type Change request",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Application type Change request",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Nameoftheapplicant",
+          "FieldName": "Name of the applicant",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Must",
+            "Rules": [
+              {
+                "Name": "Name",
+                "Type": "Mandatory",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Gender",
+          "FieldName": "Gender Male",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.GenderFemale",
+          "FieldName": "Gender Female",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#32e47b"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Maritalstatus",
+          "FieldName": "Marital status Single",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.MaritalstatusMarried",
+          "FieldName": "Marital status Married",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#4467f9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Dateofbirth",
+          "FieldName": "Date of birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "ddMMyyyy",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#cac342"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Nationality",
+          "FieldName": "Nationality Indian",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b1ba96"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.NationalityOther",
+          "FieldName": "Nationality Other",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#dfb469"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.NationalityOtherText",
+          "FieldName": "Nationality Other Text",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c6738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "x"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Residentialstatus",
+          "FieldName": "Residential status Resident Individual",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3ddb77"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.ResidentialstatusNon-Resident",
+          "FieldName": "Residential status Non - Resident",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#a7706d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "z"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.ResidentialstatusForeignNational",
+          "FieldName": "Residential status Foreign National",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5fb5a6"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Addressforcorrespondence",
+          "FieldName": "Address for correspondence",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e16be5"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "BharatBank.Banking.KYCForm.Applicantsignature",
+          "FieldName": "Applicant signature",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6ac676"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Bharat Bank",
+      "Categories": [
+        "Banking"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ]
+}
